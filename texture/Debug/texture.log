@@ -1,0 +1,25 @@
+﻿生成启动时间为 2015/9/21 17:12:53。
+     1>项目“d:\visual studio 2012\Projects\texture\texture\texture.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         D:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt Camera.cpp Land.cpp Sky.cpp SykAndLand.cpp
+         SykAndLand.cpp
+     1>d:\visual studio 2012\projects\texture\texture\sykandland.cpp(30): fatal error C1083: 无法打开包括文件:“SkyAndTerrain.h”: No such file or directory
+         Sky.cpp
+     1>d:\visual studio 2012\projects\texture\texture\sky.cpp(17): fatal error C1083: 无法打开包括文件:“SkyBox.h”: No such file or directory
+         Land.cpp
+     1>d:\visual studio 2012\projects\texture\texture\land.cpp(17): fatal error C1083: 无法打开包括文件:“Terrain.h”: No such file or directory
+         Camera.cpp
+     1>d:\visual studio 2012\projects\texture\texture\camera.cpp(196): error C2065: “MAP_WIDTH”: 未声明的标识符
+     1>d:\visual studio 2012\projects\texture\texture\camera.cpp(196): error C2065: “CELL_WIDTH”: 未声明的标识符
+     1>d:\visual studio 2012\projects\texture\texture\camera.cpp(202): error C2065: “MAP_WIDTH”: 未声明的标识符
+     1>d:\visual studio 2012\projects\texture\texture\camera.cpp(202): error C2065: “CELL_WIDTH”: 未声明的标识符
+     1>d:\visual studio 2012\projects\texture\texture\camera.cpp(233): error C2065: “MAP_WIDTH”: 未声明的标识符
+     1>d:\visual studio 2012\projects\texture\texture\camera.cpp(233): error C2065: “CELL_WIDTH”: 未声明的标识符
+     1>d:\visual studio 2012\projects\texture\texture\camera.cpp(239): error C2065: “MAP_WIDTH”: 未声明的标识符
+     1>d:\visual studio 2012\projects\texture\texture\camera.cpp(239): error C2065: “CELL_WIDTH”: 未声明的标识符
+         正在生成代码...
+     1>已完成生成项目“d:\visual studio 2012\Projects\texture\texture\texture.vcxproj”(Build 个目标)的操作 - 失败。
+
+生成失败。
+
+已用时间 00:00:01.88
